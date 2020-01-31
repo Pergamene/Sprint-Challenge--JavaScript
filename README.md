@@ -30,13 +30,36 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+```
+The biggest difference is `.forEach()` performs the given callback function ON each element of the array, and `.map()` returns a new array with the results of the callback for each element, so the original array is not modified.
+```
+
 2. What is the difference between a function and a method?
+
+```
+A method is contained within an object and a function stands on its own.
+```
 
 3. What is closure?
 
+```
+Giving nested functions access to the scope of the outter function.
+```
+
 4. Describe the four rules of the 'this' keyword.
 
+```
+1. Global - the window/console object it is in.
+2. Implicit - points to the object 'this' is called in.
+3. New - attaches a variable to the specific instance of the object being created by the constructor.
+4. Explicit - a this defined by a method call.
+```
+
 5. Why do we need super() in an extended class?
+
+```
+`super()` calls the parent classes constructor which gives the child class access to the methods in the parent class.
+```
 
 ## Project Set up
 
