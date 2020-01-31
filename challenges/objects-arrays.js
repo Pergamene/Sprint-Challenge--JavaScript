@@ -1,5 +1,5 @@
-// ==== Objects ====
 console.log(`OBJECTS-ARRAYS.JS`);
+// ==== Objects ====
 
 /* 
   Given the following information about dinosaurs, create 3 objects: 
