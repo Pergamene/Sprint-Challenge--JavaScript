@@ -31,7 +31,9 @@ Edit this document to include your answers after each question. Make sure to lea
 1. Describe the biggest difference between `.forEach` & `.map`.
 
 ```
-The biggest difference is `.forEach()` performs the given callback function ON each element of the array, and `.map()` returns a new array with the results of the callback for each element, so the original array is not modified.
+The biggest difference is `.forEach()` performs the given callback function ON each element of the array, and 
+`.map()` returns a new array with the results of the callback for each element, so the original array is not 
+modified.
 ```
 
 2. What is the difference between a function and a method?
@@ -58,7 +60,8 @@ Giving nested functions access to the scope of the outter function.
 5. Why do we need super() in an extended class?
 
 ```
-`super()` calls the parent classes constructor which gives the child class access to the methods in the parent class.
+`super()` calls the parent classes constructor which gives the child class access to the methods in the parent
+class.
 ```
 
 ## Project Set up
