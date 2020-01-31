@@ -1,3 +1,4 @@
+console.log(`FUNCTIONS.JS`);
 // ==== Callbacks ====  
 
 /* Step 1: Create a higher-order function
@@ -6,7 +7,11 @@
   * The last parameter accepts a callback
   * The consume function should return the invocation of cb, passing a and b into cb as arguments
 */
+function consume(a, b, cb) {
+  return cb(a, b);
+}
 
+console.log(`consume:`)
 
 /* Step 2: Create several functions to callback with consume();
   * Create a function named add that returns the sum of two numbers
